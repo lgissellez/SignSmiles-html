@@ -1,0 +1,248 @@
+<html> 
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+
+		<!-- Website CSS style -->
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+		<!-- Website Font style -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		
+		<!-- Google Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+        <style>
+            
+            body{
+                background-color:rgb(27, 167, 231); 
+                height: 100%;
+ 	background-repeat: no-repeat;
+            }
+            h1{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                size:5in;
+                color:yellow;
+                text-align: center
+            }
+            h2{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                size:25px;
+                color:yellow;
+            }
+            button1{
+                font-size: 16px;
+    border: 2px solid rgb(227, 252, 2); 
+    background-color:yellow;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color:navy;
+    margin: 4px 2px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;display: block;
+    margin-left: auto;
+    margin-right: auto;
+            }
+            img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width:"400";
+    height:"300";
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+}
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+hr{
+	width: 10%;
+	color: #fff;
+}
+
+.form-group{
+	margin-bottom: 15px;
+}
+
+label{
+	margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-login{
+ 	background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+ 	max-width: 330px;
+    padding: 40px 40px;
+
+}
+
+.login-button{
+	margin-top: 5px;
+}
+
+.login-register{
+	font-size: 11px;
+	text-align: center;
+}
+
+         </style>
+        <body>
+                <img src="https://i.imgur.com/9OeHzzV.jpg"  title="source: imgur.com" / ></a> 
+                <h1>SignSmiles</h1>
+            	<div class="container">
+                        <div class="row main">
+                            <div class="panel-heading">
+                               <div class="panel-title text-center">
+                                       <h1 class="title">Registrar</h1>
+                                       <hr />
+                                   </div>
+                            </div> 
+                            <div class="main-login main-center">
+                                <form class="form-horizontal" method="post" action="#">
+                                    
+                                    <div class="form-group">
+                                        <label for="name" class="cols-sm-2 control-label">Nombre</label>
+                                        <div class="cols-sm-10">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                                <input type="text" class="form-control" name="name" id="name"  placeholder="Ingrese su nombre"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                            <label for="name" class="cols-sm-2 control-label">Edad</label>
+                                            <div class="cols-sm-10">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                                    <input type="text" class="form-control" name="name" id="name"  placeholder="Ingrese su Edad"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                        <label for="name" class="cols-sm-2 control-label">Direccion</label>
+                                        <div class="cols-sm-10">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                                <input type="text" class="form-control" name="name" id="name"  placeholder="Ingrese su direccion"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                            <label for="name" class="cols-sm-2 control-label">Numero de Identidad</label>
+                                            <div class="cols-sm-10">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                                    <input type="text" class="form-control" name="name" id="name"  placeholder="Ingrese numero de identidad"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                                <label for="name" class="cols-sm-2 control-label">Estado (Sordo/Oyente)</label>
+                                                <div class="cols-sm-10">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                                        <input type="text" class="form-control" name="name" id="name"  placeholder="Ingrese estado"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                    <label for="name" class="cols-sm-2 control-label">Numero Telefonico</label>
+                                                    <div class="cols-sm-10">
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+                                                            <input type="text" class="form-control" name="name" id="name"  placeholder="Ingrese su numero telefonico"/>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+            
+                                    <div class="form-group">
+                                        <label for="email" class="cols-sm-2 control-label">Su correo</label>
+                                        <div class="cols-sm-10">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                                                <input type="text" class="form-control" name="email" id="email"  placeholder="Ingrese su correo"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                            <label for="email" class="cols-sm-2 control-label">Correo de Respaldo</label>
+                                            <div class="cols-sm-10">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                                                    <input type="text" class="form-control" name="email" id="email"  placeholder="Ingrese su correo"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                                <label for="email" class="cols-sm-2 control-label">Codigo Postal</label>
+                                                <div class="cols-sm-10">
+                                                    <div class="input-group">
+                                                        <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                                                        <input type="text" class="form-control" name="email" id="email"  placeholder="Ingrese codigo postal"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+            
+                                    <div class="form-group">
+                                        <label for="username" class="cols-sm-2 control-label">Nombre de Usuario</label>
+                                        <div class="cols-sm-10">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+                                                <input type="text" class="form-control" name="username" id="username"  placeholder="Ingrese su nombre de usuario"/>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="form-group">
+                                        <label for="password" class="cols-sm-2 control-label">Password</label>
+                                        <div class="cols-sm-10">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                                                <input type="password" class="form-control" name="password" id="password"  placeholder="Ingrese su Password"/>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="form-group">
+                                        <label for="confirm" class="cols-sm-2 control-label">Confirmar Password</label>
+                                        <div class="cols-sm-10">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                                                <input type="password" class="form-control" name="confirm" id="confirm"  placeholder="Confirme su Password"/>
+                                            </div>
+                                        </div>
+                                    </div>
+            
+                                    <div class="form-group ">
+                                        <button1 button type="button" class="btn btn-primary btn-lg btn-block login-button" onclick= "location= 'file:///F:/FILES/DISE%C3%91O%20WEB/SignSmiles%20HTML/Login.html' ">Log In</button1>
+                                        
+                                    </div>
+        </body>
+</html>
