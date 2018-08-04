@@ -1,5 +1,5 @@
-# SignSmiles-html !
-[CI status](https://i.imgur.com/9OeHzzVs.jpg)
+# SignSmiles-html
+ ![CI status](https://i.imgur.com/9OeHzzVs.jpg)
 SignSmiles es una aplicacion en desarrollo con el proposito de eliminar la barrera de comunicacion entre personas con discapacidad auditiva y las personas oyentes.
 
 ## Como funciona SignSmiles
