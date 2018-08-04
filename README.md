@@ -11,3 +11,4 @@ Al iniciar sesion el usuario eligira cual vista desea utilizar.
 [![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=DN2wMlAE62I&feature=youtu.be)
 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DN2wMlAE62I" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
