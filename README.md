@@ -8,6 +8,6 @@ SignSmiles es una aplicacion en desarrollo con el proposito de eliminar la barre
 Al iniciar sesion el usuario eligira cual vista desea utilizar. 
 
  ## Tutorial
-[![SignSmiles Tutorial](https://i.imgur.com/hf4eaaH.jpg)](https://www.youtube.com/watch?v=https://www.youtube.com/watch?v=DN2wMlAE62I&feature=youtu.be)
+[![SignSmiles Tutorial](https://i.imgur.com/hf4eaaH.jpg)](https://www.youtube.com/watch?v=DN2wMlAE62I&feature=youtu.be)
 
 
